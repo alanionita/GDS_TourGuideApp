@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GDS_TourGuideApp</string>
+    <string name="category_locations">Locations</string>
+    <string name="category_culture">Culture</string>
+    <string name="category_food">Food</string>
+    <string name="category_sights">Sights</string>
+</resources>
