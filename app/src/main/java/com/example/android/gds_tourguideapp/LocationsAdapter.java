@@ -36,13 +36,9 @@ public class LocationsAdapter extends ArrayAdapter<Location> {
         Location listItemData = getItem(position);
 
         TextView locationTitle = (TextView) customView.findViewById(R.id.location_title);
-        TextView locationDescription = (TextView) customView.findViewById(R.id.location_description);
-        TextView locationAddress = (TextView) customView.findViewById(R.id.location_address);
 
         if (listItemData != null) {
             locationTitle.setText(listItemData.getTitle());
-            locationDescription.setText(listItemData.getDescription());
-            locationAddress.setText(listItemData.getAddress());
         }
         return  customView;
     }
