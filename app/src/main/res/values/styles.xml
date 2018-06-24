@@ -21,10 +21,13 @@
 
     <!--TabLayout Style-->
     <style name="TabLayoutStyle">
-        <item name="tabIndicatorColor">#FFFFFF</item>
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
         <item name="tabMode">fixed</item>
-        <item name="tabSelectedTextColor">#FFFFFF</item>
-        <item name="tabTextColor">#A8A19E</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+        <item name="tabTextColor">@color/colorPrimaryDark</item>
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabContentStart">72dp</item>
     </style>
 
 </resources>

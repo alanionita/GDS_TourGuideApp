@@ -13,6 +13,8 @@ import java.util.ArrayList;
  * Created by alanionita on 20/06/2018.
  */
 
+// TODO: add all the content into all fragments
+
 public class FoodFragment extends Fragment {
     public FoodFragment() {}
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
