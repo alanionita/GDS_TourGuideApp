@@ -4,6 +4,11 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+
+// TODO: style the list_items
+// TODO: style the detail screen
+// TODO: create a readme file and detail the project
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,8 +22,5 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
-
-        // TODO: create a fragment for the first list
-
     }
 }

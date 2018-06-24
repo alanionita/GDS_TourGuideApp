@@ -15,6 +15,8 @@ import java.util.ArrayList;
  * Created by alanionita on 09/06/2018.
  */
 
+// TODO: add on click listener that triggers another class an layout on click
+
 public class LocationsAdapter extends ArrayAdapter<Location> {
 
     LocationsAdapter(@NonNull Context context, ArrayList<Location> locations) {
