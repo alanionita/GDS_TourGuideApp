@@ -24,6 +24,10 @@ I loved the branding and decided to try to recreate it in an app.
 
 ![screenshot of I am Amsterdam](https://github.com/alanionita/GDS_TourGuideApp/blob/master/readme_assets/i_am_amsterdam_screenshot.png)
 
+Loving the simplicity of these cards and as you case above I've stolen most of the design 😀.
+
+![card screenshot I am Amsterdam](https://github.com/alanionita/GDS_TourGuideApp/blob/master/readme_assets/i_am_amsterdam_cards.png)
+
 ### Why this project?
   
 A great way to increase the complexity of the apps I'm building whilst learning best practices like Bitmap generation, image optimisation, performance, and memory management.
