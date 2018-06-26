@@ -29,16 +29,22 @@ public class LocationsFragment extends Fragment {
 
         // Create a list of word data
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location("Volderpark", "", ""));
-        locations.add(new Location("Westerpark", "", ""));
-        locations.add(new Location("The canals", "", ""));
-        locations.add(new Location("Jordaan District", "", ""));
-        locations.add(new Location("De Pijp neighbourhood", "", ""));
-        locations.add(new Location("Albert Cuypmarkt", "", ""));
-        locations.add(new Location("Leidseplein", "", ""));
-        locations.add(new Location("De Negen Straatjes\n", "", ""));
-        locations.add(new Location("Dam Square", "", ""));
-        locations.add(new Location("Begijnhof", "", ""));
+        locations.add(new Location("Volderpark", "", "",
+                R.drawable.vondel_park, "", ""));
+        locations.add(new Location("Westerpark", "", "",
+                R.drawable.wester_park, "", ""));
+        locations.add(new Location("The canals", "", "",
+                R.drawable.canals, "", ""));
+        locations.add(new Location("Jordaan District", "", "",
+                R.drawable.jordaan, "", ""));
+        locations.add(new Location("Albert Cuypmarkt", "", "",
+                R.drawable.albert_cuypstraat, "", ""));
+        locations.add(new Location("Leidseplein", "", "",
+                R.drawable.leidseplein, "", ""));
+        locations.add(new Location("De Negen Straatjes", "", "",
+                R.drawable.de_9_straatjes, "", ""));
+        locations.add(new Location("Begijnhof", "", "",
+                R.drawable.begijnhof, "", ""));
 
         LocationsAdapter locationsAdapter = new LocationsAdapter(getActivity(), locations);
 

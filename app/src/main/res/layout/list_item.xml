@@ -4,31 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary"
+    android:minHeight="100dp"
     card_view:cardBackgroundColor="@color/colorPrimary">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
 
         <ImageView
             android:id="@+id/list_item_image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:contentDescription="image"
-            android:paddingRight="8dp" />
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:id="@+id/location_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="@android:color/black"
-            android:background="@android:color/white"
-            android:layout_alignBottom="@+id/list_item_image"
-            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
             android:padding="8dp"
+            android:textSize="16sp"
             tools:text="title" />
     </RelativeLayout>
 
