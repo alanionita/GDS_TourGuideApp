@@ -25,11 +25,16 @@ public class CultureFragment extends Fragment {
 
         // Create a list of word data
         final ArrayList<Location> culture = new ArrayList<>();
-        culture.add(new Location("Rijksmuseum", "", ""));
-        culture.add(new Location("Van Gogh Museum", "", ""));
-        culture.add(new Location("The Royal Theatre Carré", "", ""));
-        culture.add(new Location("Museum van Loon", "", ""));
-        culture.add(new Location("Maritime Museum", "", ""));
+        culture.add(new Location("Rijksmuseum", "", "",
+                R.drawable.rijksmuseum, "", ""));
+        culture.add(new Location("Van Gogh Museum", "", "",
+                R.drawable.van_gogh, "", ""));
+        culture.add(new Location("The Royal Theatre Carré", "", "",
+                R.drawable.carre, "", ""));
+        culture.add(new Location("Museum van Loon", "", "",
+                R.drawable.van_loon_museum, "", ""));
+        culture.add(new Location("Maritime Museum", "", "",
+                R.drawable.maritime_museum, "", ""));
 
         LocationsAdapter locationsAdapter = new LocationsAdapter(getActivity(), culture);
 

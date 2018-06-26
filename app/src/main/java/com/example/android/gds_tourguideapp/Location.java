@@ -5,7 +5,7 @@ package com.example.android.gds_tourguideapp;
  */
 
 public class Location {
-    private static final int NO_IMAGE_CONTENT = - 1;
+    private static final int NO_IMAGE_CONTENT = -1;
     private String title;
     private String description;
     private String address;
@@ -13,19 +13,21 @@ public class Location {
     private String webpage;
     private String opening_hours;
 
-    Location (String titleParam, String descriptionParam, String addressParam) {
+    Location(String titleParam, String descriptionParam, String addressParam) {
         title = titleParam;
         description = descriptionParam;
         address = addressParam;
     }
 
-    Location (String title, String description, String address, int image, String webpage, String opening_hours) {
-        title = title;
-        description = description;
-        address = address;
-        image = image;
-        webpage = webpage;
-        opening_hours = opening_hours;
+    Location(String titleParam, String descriptionParam, String addressParam,
+             int imageParam, String webpageParam, String openingHoursParam)
+    {
+        title = titleParam;
+        description = descriptionParam;
+        address = addressParam;
+        image = imageParam;
+        webpage = webpageParam;
+        opening_hours = openingHoursParam;
     }
 
     String getTitle() {
@@ -52,15 +54,15 @@ public class Location {
         return opening_hours;
     }
 
-    boolean hasImage () {
-        return  image != NO_IMAGE_CONTENT;
+    boolean hasImage() {
+        return image != NO_IMAGE_CONTENT;
     }
 
-    boolean hasWebpage () {
+    boolean hasWebpage() {
         return webpage != null;
     }
 
-    boolean hasOpeningHours () {
+    boolean hasOpeningHours() {
         return opening_hours != null;
     }
 }
