@@ -22,7 +22,7 @@ One things led to another and I discovered the campaign's [website](https://www.
 
 I loved the branding and decided to try to recreate it in an app. 
 
-[screenshot of I am Amsterdam]()
+![screenshot of I am Amsterdam](https://github.com/alanionita/GDS_TourGuideApp/blob/master/readme_assets/i_am_amsterdam_screenshot.png)
 
 ### Why this project?
   
