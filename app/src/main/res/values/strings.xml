@@ -5,7 +5,7 @@
     <string name="category_food">Food</string>
     <string name="category_sights">Sights</string>
 
-    // Culture Fragment Content
+    // CultureFragment Content
     <string name="rijksmuseum_title">Rijksmuseum</string>
     <string name="rijksmuseum_description">The Rijksmuseum is a Dutch national museum
         dedicated to arts and history in Amsterdam.</string>
@@ -23,5 +23,29 @@
     <string name="maritime_description">The National Maritime Museum is a maritime museum
         in Amsterdam in the Netherlands. The museum had 419,060 visitors in 2012. It ranked
         as 11th most visited museum in the Netherlands in 2013.</string>
+
+    // FoodFragment Content
+    <string name="_title"></string>
+    <string name="_description"></string>
+    <string name="meatless_district_title">Meatless District</string>
+    <string name="meatless_district_description">Bar &amp; Kitchen, 100% vegan, Breakfast,
+        Lunch, Dinner &amp; Drinks, Take away, Organic</string>
+    <string name="vegan_junk_food_title">Vegan Junk Food</string>
+    <string name="vegan_junk_food_description">Cruelty free! Entirely plant-based Vegan Junk
+        Food in Amsterdam.</string>
+    <string name="vegabond_title">Vegabond Store and Cafe</string>
+    <string name="vegabond_description">Vegabond is an intimate lunchroom and vegan grocery
+        store in the heart of Amsterdam that sells vegan essentials as well as delicious
+        food!</string>
+    <string name="mr_mrs_watson_title">Mr &amp; Mrs Watson</string>
+    <string name="mr_mrs_watson_description">Awarded Vegan Cheeses. The famous vegan cheeses
+        by Mr. &amp; Mrs. Watson are made in-house. Including a cashew brie and blue
+        roquefort.</string>
+    <string name="terrazen_title">Terrazen Center</string>
+    <string name="terrazen_description">Funky, family-run cafe with communal seating offering
+        vegan versions of Caribbean &amp; Japanese dishes.</string>
+    <string name="las_vegan_title">Las Vegan</string>
+    <string name="las_vegan_description">Las Vegan is the world\'s first delivery-only vegan
+        restaurant in Amsterdam. 100% plant based vegan food from our kitchen</string>
 
 </resources>
