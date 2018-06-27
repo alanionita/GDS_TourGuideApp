@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-// TODO: move the string resources for SightsFragment
 // TODO: move the string resources for LocationsFragment
 
 public class MainActivity extends AppCompatActivity {

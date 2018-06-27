@@ -71,11 +71,22 @@ public class LocationsAdapter extends ArrayAdapter<Location> {
             list_item_card.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     getContext().startActivity(
-                            new Intent(getContext(), DetailsActivity.class)
-                                    .putExtra("location_details_image", listItemData.getImage())
-                                    .putExtra("title", listItemData.getTitle())
-                                    .putExtra("description", listItemData.getDescription())
-                                    .putExtra("address", listItemData.getAddress())
+                            new Intent(
+                                    getContext(),
+                                    DetailsActivity.class
+                            )
+                                    .putExtra(
+                                            getContext().getString(R.string.int_extra_image),
+                                            listItemData.getImage()
+                                    )
+                                    .putExtra(
+                                            getContext().getString(R.string.int_extra_title),
+                                            listItemData.getTitle()
+                                    )
+                                    .putExtra(
+                                            getContext().getString(R.string.int_extra_description),
+                                            listItemData.getDescription()
+                                    )
                     );
                 }
             });

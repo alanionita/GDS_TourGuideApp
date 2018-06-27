@@ -40,9 +40,13 @@ public class DetailsActivity extends AppCompatActivity {
          * Find the incoming intent data and record it to variables
          */
 
-        int locationImage = getIntent().getIntExtra("location_details_image", 0);
-        String locationTitle = getIntent().getStringExtra("title");
-        String locationDescription = getIntent().getStringExtra("description");
+        int locationImage = getIntent().getIntExtra(
+                getResources().getString(R.string.int_extra_image),
+                0);
+        String locationTitle = getIntent().getStringExtra(
+                getResources().getString(R.string.int_extra_title));
+        String locationDescription = getIntent().getStringExtra(
+                getResources().getString(R.string.int_extra_description));
 
         /**
          * Find the xml placeholders and setting them to the new value
