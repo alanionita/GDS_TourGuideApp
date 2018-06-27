@@ -25,8 +25,6 @@
         as 11th most visited museum in the Netherlands in 2013.</string>
 
     // FoodFragment Content
-    <string name="_title"></string>
-    <string name="_description"></string>
     <string name="meatless_district_title">Meatless District</string>
     <string name="meatless_district_description">Bar &amp; Kitchen, 100% vegan, Breakfast,
         Lunch, Dinner &amp; Drinks, Take away, Organic</string>
@@ -48,4 +46,41 @@
     <string name="las_vegan_description">Las Vegan is the world\'s first delivery-only vegan
         restaurant in Amsterdam. 100% plant based vegan food from our kitchen</string>
 
+    // SightsFragment Content
+    <string name="_title"></string>
+    <string name="_description"></string>
+    <string name="anne_frank_title">Anne Frank House</string>
+    <string name="anne_frank_description">The Anne Frank House is a writer\'s house and
+        biographical museum dedicated to Jewish wartime diarist Anne Frank. The building is
+        located on a canal called the Prinsengracht, close to the Westerkerk, in central
+        Amsterdam in the Netherlands</string>
+    <string name="artis_royal_title">Artis Royal Zoo</string>
+    <string name="artis_royal_description">Artis, short for Natura Artis Magistra, is a zoo
+        in the centre of Amsterdam. It is the oldest zoo in the Netherlands and one of the
+        oldest zoos of mainland Europe</string>
+    <string name="rembrandt_title">Rembrandt House</string>
+    <string name="rembrandt_description">The Rembrandt House Museum is a historic house and
+        art museum in Amsterdam in the Netherlands. Painter Rembrandt lived and worked in the
+        house between 1639 and 1656.</string>
+    <string name="flower_markets_title">Flower Markets</string>
+    <string name="flower_markets_description">The flower market of Amsterdam is a particularly
+        colorful place in the city. You will find there all sorts of tulips, narcissus,
+        geraniums and many other types of flowers.</string>
+    <string name="royal_palace_title">Royal Palace of Amsterdam</string>
+    <string name="royal_palace_description">The Royal Palace of Amsterdam in Amsterdam is
+        one of three palaces in the Netherlands which are at the disposal of the monarch by
+        Act of Parliament.</string>
+    <string name="tussauds_title">Madame Tussauds</string>
+    <string name="tussauds_description">Madame Tussauds is a wax museum in London with smaller
+        museums in a number of other major cities. It was founded bywax sculptor Marie Tussaud.
+    </string>
+    <string name="poezenboot_title">De Poezenboot</string>
+    <string name="poezenboot_description">The Catboat is the only animal sanctuary that
+        literally floats. A refuge for stray and abandoned cats which, thanks to its unique
+        location on a houseboat in Amsterdam's picturesque canal belt, has also become a
+        world-famous tourist attraction. The one and only Catboat.</string>
+    <string name="st_nicholas_title">Basilica of St. Nicholas</string>
+    <string name="st_nicholas_description">The Basilica of Saint Nicholas is located in the
+        Old Centre district of Amsterdam, Netherlands. It is the city's major Catholic
+        church.</string>
 </resources>
