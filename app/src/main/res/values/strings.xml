@@ -4,6 +4,9 @@
     <string name="category_culture">Culture</string>
     <string name="category_food">Food</string>
     <string name="category_sights">Sights</string>
+    <string name="int_extra_image">location_details_image</string>
+    <string name="int_extra_title">location_details_title</string>
+    <string name="int_extra_description">description</string>
 
     // CultureFragment Content
     <string name="rijksmuseum_title">Rijksmuseum</string>
@@ -47,8 +50,6 @@
         restaurant in Amsterdam. 100% plant based vegan food from our kitchen</string>
 
     // SightsFragment Content
-    <string name="_title"></string>
-    <string name="_description"></string>
     <string name="anne_frank_title">Anne Frank House</string>
     <string name="anne_frank_description">The Anne Frank House is a writer\'s house and
         biographical museum dedicated to Jewish wartime diarist Anne Frank. The building is
@@ -83,4 +84,48 @@
     <string name="st_nicholas_description">The Basilica of Saint Nicholas is located in the
         Old Centre district of Amsterdam, Netherlands. It is the city's major Catholic
         church.</string>
+
+    // LocationsFragment Content
+    <string name="_title"></string>
+    <string name="_description"></string>
+    <string name="volderpark_title">Volderpark</string>
+    <string name="volderpark_description">The Vondelpark is a public urban park of 47 hectares
+        (120 acres) in Amsterdam, Netherlands. It is part of the borough of Amsterdam-Zuid and
+        situated west from the Leidseplein and the Museumplein. The park was opened in 1865 and
+        originally named the \"Nieuwe Park\", but later renamed to \"Vondelpark\", after the
+        17th-century playwright and poet Joost van den Vondel. Yearly, the park has around
+        10 million visitors. In the park is an open-air theatre, a playground and several
+        horeca facilities.</string>
+    <string name="westerpark_title">Westerpark</string>
+    <string name="westerpark_description">Adjacent to the centre lies the lively Westerpark
+        neighbourhood, part of Amsterdam West. Home to the eponymous park, which combines
+        expansive greenery with the Westergasfabriek\'s wealth of cultural goings on, this
+        lively neighbourhood is home to a varied mix of independent shops, old-school street
+        markets, shiny new restaurants and traditional brown cafés.</string>
+    <string name="canals_title">The canals</string>
+    <string name="canals_description">Alongside wooden clogs, windmills, and tulips, the
+        Amsterdam Canals spring to mind when anyone mentions Holland. A canal cruise along the
+        Amsterdam Canals is undoubtedly the number one attraction and for first time visitors
+        like me, a canal cruise is a great introduction to the city. The Amsterdam Canals also
+        celebrate their 400th birthday in 2013 and many special events and festivals are
+        helping the city celebrate.</string>
+    <string name="jordaan_title">Jordaan District</string>
+    <string name="jordaan_description">The Jordaan is a district in the citycenter of
+        Amsterdam, known for its beautiful houses, nice restaurants and original shops. When
+        in Amsterdam, it is a must to stroll through the little streets and canals. On the
+        many bridges over the canals, you can take beautiful pictures and see why Amsterdam is
+        called the Venice of the North. Popular streets in the Jordaan are the Prinsengracht,
+        the Westerstraat, Haarlemmerstraat and the '9 straatjes' (nine little streets).</string>
+    <string name="albert_cuypmarkt_title">Albert Cuypmarkt</string>
+    <string name="albert_cuypmarkt_description">The Albert Cuyp Market is a street market in
+        Amsterdam, The Netherlands, on the Albert Cuypstraat between Ferdinand Bolstraat and
+        Van Woustraat, in the De Pijp area of the Oud-Zuid district of the city.</string>
+    <string name="leidseplein_title">Leidseplein</string>
+    <string name="leidseplein_description">Leidseplein is a busy square at the southern end
+        of Amsterdam\'s central canal ring, almost facing the popular Vondelpark.</string>
+    <string name="begijnhof_title">Begijnhof</string>
+    <string name="begijnhof_description">The Begijnhof is one of the oldest hofjes in Amsterdam
+        , Netherlands. A group of historic buildings, mostly private dwellings, centre on it.
+        Today it is also the site of two churches, the Catholic Houten Huys and the English
+        Reformed</string>
 </resources>
