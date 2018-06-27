@@ -56,7 +56,7 @@ public class DetailsActivity extends AppCompatActivity {
             details_image.setImageResource(locationImage);
             // Set image size
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-                    LinearLayout.LayoutParams.MATCH_PARENT, getDPI(300, metrics));
+                    LinearLayout.LayoutParams.MATCH_PARENT, getDPI(200, metrics));
             details_image.setLayoutParams(params);
         }
         if (locationImage == -1) {

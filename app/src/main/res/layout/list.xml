@@ -9,9 +9,9 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/listView_margin"
         android:divider="@android:color/transparent"
-        android:dividerHeight="16dp"
+        android:dividerHeight="@dimen/listView_divider_height"
         android:headerDividersEnabled="true"
         android:scrollbars="none"
         android:nestedScrollingEnabled="true"/>

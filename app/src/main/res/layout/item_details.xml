@@ -9,7 +9,7 @@
         android:id="@+id/close_details_button"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/item_details_margin"
         android:background="@android:drawable/ic_menu_close_clear_cancel"
         android:backgroundTint="@android:color/black"/>
 
@@ -24,8 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
-        android:textSize="32sp"
-        android:paddingLeft="16dp"
+        android:textSize="@dimen/item_details_title"
+        android:paddingLeft="@dimen/listView_margin"
         android:background="@color/colorPrimaryDark"/>
 
     <TextView
@@ -33,10 +33,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:textSize="16sp"
-        android:paddingTop="16dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:textSize="@dimen/item_details_regular"
+        android:paddingTop="@dimen/listView_margin"
+        android:paddingLeft="@dimen/listView_margin"
+        android:paddingRight="@dimen/listView_margin"
         />
 
 </LinearLayout>

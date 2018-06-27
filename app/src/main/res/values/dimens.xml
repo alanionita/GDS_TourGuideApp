@@ -6,4 +6,13 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="list_item_standard_padding_margin">16dp</dimen>
     <dimen name="text_size_sections">18sp</dimen>
+    <dimen name="appBar_height">256dp</dimen>
+    <dimen name="listView_divider_height">16dp</dimen>
+    <dimen name="listView_margin">16dp</dimen>
+    <dimen name="cardView_minHeight">100dp</dimen>
+    <dimen name="list_item_text_size">16sp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="item_details_margin">16dp</dimen>
+    <dimen name="item_details_title">24sp</dimen>
+    <dimen name="item_details_regular">16sp</dimen>
 </resources>
