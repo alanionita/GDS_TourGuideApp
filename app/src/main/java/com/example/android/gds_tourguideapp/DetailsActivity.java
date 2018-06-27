@@ -1,24 +1,40 @@
 package com.example.android.gds_tourguideapp;
 
+import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import static com.example.android.gds_tourguideapp.LocationsAdapter.getDPI;
 
 /**
  * Created by alanionita on 26/06/2018.
  */
 
 public class DetailsActivity extends AppCompatActivity {
+    // Define global variables
+    WindowManager windowManager;
+    DisplayMetrics metrics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.item_details);
+
+        // Get display metrics from windowManager
+        metrics = new DisplayMetrics();
+        windowManager = (WindowManager) getApplicationContext()
+                .getSystemService(Context.WINDOW_SERVICE);
+        windowManager.getDefaultDisplay().getMetrics(metrics);
 
         /**
          * Find the incoming intent data and record it to variables
@@ -27,7 +43,6 @@ public class DetailsActivity extends AppCompatActivity {
         int locationImage = getIntent().getIntExtra("location_details_image", 0);
         String locationTitle = getIntent().getStringExtra("title");
         String locationDescription = getIntent().getStringExtra("description");
-        String locationAddress = getIntent().getStringExtra("address");
 
         /**
          * Find the xml placeholders and setting them to the new value
@@ -36,15 +51,22 @@ public class DetailsActivity extends AppCompatActivity {
         ImageView details_image = findViewById(R.id.details_image);
         TextView details_title = findViewById(R.id.details_title);
         TextView details_description = findViewById(R.id.details_description);
-        TextView details_address = findViewById(R.id.details_address);
 
         if (locationImage != -1) {
             details_image.setImageResource(locationImage);
+            // Set image size
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT, getDPI(300, metrics));
+            details_image.setLayoutParams(params);
         }
-        Log.i("title", locationTitle);
+        if (locationImage == -1) {
+            // Set image size
+            LinearLayout.LayoutParams secondParams = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+            details_image.setLayoutParams(secondParams);
+        }
         details_title.setText(locationTitle);
         details_description.setText(locationDescription);
-        details_address.setText(locationAddress);
 
         /**
          * Find the close button and add a click listener that returns the

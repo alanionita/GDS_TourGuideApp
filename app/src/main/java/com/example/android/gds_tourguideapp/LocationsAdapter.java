@@ -58,6 +58,7 @@ public class LocationsAdapter extends ArrayAdapter<Location> {
         // Find view from layout
         TextView locationTitle = (TextView) customView.findViewById(R.id.location_title);
         ImageView locationImage = (ImageView) customView.findViewById(R.id.list_item_image);
+        ImageView detailsImage = (ImageView) customView.findViewById(R.id.details_image);
 
         final CardView list_item_card = customView.findViewById(R.id.list_item_card);
 
