@@ -4,4 +4,24 @@
     <string name="category_culture">Culture</string>
     <string name="category_food">Food</string>
     <string name="category_sights">Sights</string>
+
+    // Culture Fragment Content
+    <string name="rijksmuseum_title">Rijksmuseum</string>
+    <string name="rijksmuseum_description">The Rijksmuseum is a Dutch national museum
+        dedicated to arts and history in Amsterdam.</string>
+    <string name="van_gogh_title">Van Gogh Museum</string>
+    <string name="van_gogh_description">The Van Gogh Museum is an art museum dedicated
+        to the works of Vincent van Gogh and his contemporaries in Amsterdam in the
+        Netherlands.</string>
+    <string name="carre_title">The Royal Theatre Carré</string>
+    <string name="carre_description">The Royal Theatre Carré is a Neo-Renaissance theatre
+        in Amsterdam, located near the river Amstel.</string>
+    <string name="van_loon_title">Museum van Loon</string>
+    <string name="van_loon_description">Museum Van Loon is a museum located in a canal-side
+        house alongside the Keizersgracht in Amsterdam, Netherlands.</string>
+    <string name="maritime_title">Maritime Museum</string>
+    <string name="maritime_description">The National Maritime Museum is a maritime museum
+        in Amsterdam in the Netherlands. The museum had 419,060 visitors in 2012. It ranked
+        as 11th most visited museum in the Netherlands in 2013.</string>
+
 </resources>
