@@ -73,7 +73,7 @@ public class DetailsActivity extends AppCompatActivity {
          * user to the list view
          */
 
-        ImageButton closeButton = (ImageButton) findViewById(R.id.close_details_button);
+        ImageButton closeButton = findViewById(R.id.close_details_button);
         closeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

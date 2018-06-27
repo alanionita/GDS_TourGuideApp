@@ -20,7 +20,7 @@ public class SightsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
-
+/**/
         // Create a list of word data
         final ArrayList<Location> sights = new ArrayList<>();
         sights.add(new Location("Anne Frank House",

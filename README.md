@@ -3,8 +3,8 @@
 ## TourGuide 
 
 #### Version 1.0
-[TODO: Add Screencast here]
-![TourGuide v1.0]()
+
+![TourGuide v1.0](http://recordit.co/3DaRk4v43v)
 
 ### Project Overview
 
