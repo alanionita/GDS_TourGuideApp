@@ -13,21 +13,16 @@ public class Location {
     private String webpage;
     private String opening_hours;
 
-    Location(String titleParam, String descriptionParam, String addressParam) {
+    Location(String titleParam, String descriptionParam) {
         title = titleParam;
         description = descriptionParam;
-        address = addressParam;
     }
 
-    Location(String titleParam, String descriptionParam, String addressParam,
-             int imageParam, String webpageParam, String openingHoursParam)
+    Location(String titleParam, String descriptionParam, int imageParam)
     {
         title = titleParam;
         description = descriptionParam;
-        address = addressParam;
         image = imageParam;
-        webpage = webpageParam;
-        opening_hours = openingHoursParam;
     }
 
     String getTitle() {
@@ -44,25 +39,5 @@ public class Location {
 
     int getImage() {
         return image;
-    }
-
-    String getWebpage() {
-        return webpage;
-    }
-
-    String getOpening_hours() {
-        return opening_hours;
-    }
-
-    boolean hasImage() {
-        return image != NO_IMAGE_CONTENT;
-    }
-
-    boolean hasWebpage() {
-        return webpage != null;
-    }
-
-    boolean hasOpeningHours() {
-        return opening_hours != null;
     }
 }

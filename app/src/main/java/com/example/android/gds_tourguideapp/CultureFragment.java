@@ -25,16 +25,26 @@ public class CultureFragment extends Fragment {
 
         // Create a list of word data
         final ArrayList<Location> culture = new ArrayList<>();
-        culture.add(new Location("Rijksmuseum", "", "",
-                R.drawable.rijksmuseum, "", ""));
-        culture.add(new Location("Van Gogh Museum", "", "",
-                R.drawable.van_gogh, "", ""));
-        culture.add(new Location("The Royal Theatre Carré", "", "",
-                R.drawable.carre, "", ""));
-        culture.add(new Location("Museum van Loon", "", "",
-                R.drawable.van_loon_museum, "", ""));
-        culture.add(new Location("Maritime Museum", "", "",
-                R.drawable.maritime_museum, "", ""));
+        culture.add(new Location("Rijksmuseum", "The Rijksmuseum is a " +
+                "Dutch national museum dedicated to arts and history in Amsterdam.",
+                R.drawable.rijksmuseum));
+        culture.add(new Location("Van Gogh Museum", "The Van Gogh Museum" +
+                " is an art museum dedicated to the works of Vincent van Gogh and his " +
+                "contemporaries in Amsterdam in the Netherlands.",
+                R.drawable.van_gogh));
+        culture.add(new Location("The Royal Theatre Carré", "The Royal " +
+                "Theatre Carré is a Neo-Renaissance theatre in Amsterdam, located near the " +
+                "river Amstel.",
+                R.drawable.carre));
+        culture.add(new Location("Museum van Loon", "Museum Van Loon is " +
+                "a museum located in a canalside house alongside the Keizersgracht in " +
+                "Amsterdam, Netherlands.",
+                R.drawable.van_loon_museum));
+        culture.add(new Location("Maritime Museum", "The National " +
+                "Maritime Museum is a maritime museum in Amsterdam in the Netherlands. The " +
+                "museum had 419,060 visitors in 2012. It ranked as 11th most visited museum " +
+                "in the Netherlands in 2013.",
+                R.drawable.maritime_museum));
 
         LocationsAdapter locationsAdapter = new LocationsAdapter(getActivity(), culture);
 

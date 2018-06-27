@@ -2,44 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:background="@android:color/transparent">
 
     <ImageButton
         android:id="@+id/close_details_button"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:layout_margin="16dp"
         android:background="@android:drawable/ic_menu_close_clear_cancel"
         android:backgroundTint="@android:color/black"/>
 
     <ImageView
         android:id="@+id/details_image"
-        android:layout_width="fill_parent"
-        android:layout_height="200dp" />
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/details_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="32sp" />
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:paddingLeft="16dp"
+        android:background="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/details_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/details_address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        />
 
 </LinearLayout>
