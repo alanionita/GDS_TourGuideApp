@@ -6,9 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-// TODO: style the list_items
 // TODO: style the detail screen
-// TODO: create a readme file and detail the project
+// TODO: add on click listener that triggers another class an layout on click
+// TODO: add all the content into fragments, and pass it to details screen
+// TODO: refactor and clean the code, create style objects, use resources for variables
+// TODO: submit the project and relax for a bit 🎉
 
 public class MainActivity extends AppCompatActivity {
 
