@@ -4,7 +4,7 @@
 
 #### Version 1.0
 
-![TourGuide v1.0](http://recordit.co/3DaRk4v43v)
+![TourGuide v1.0](http://g.recordit.co/3DaRk4v43v.gif)
 
 ### Project Overview
 
