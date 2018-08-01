@@ -44,23 +44,21 @@ public class LocationsAdapter extends ArrayAdapter<Location> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View customView = convertView;
-
         // Get current item from list
         final Location listItemData = getItem(position);
 
-        if (customView == null) {
-            customView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false
             );
         }
 
         // Find view from layout
-        TextView locationTitle = customView.findViewById(R.id.location_title);
-        ImageView locationImage = customView.findViewById(R.id.list_item_image);
-        ImageView detailsImage = customView.findViewById(R.id.details_image);
+        TextView locationTitle = convertView.findViewById(R.id.location_title);
+        ImageView locationImage = convertView.findViewById(R.id.list_item_image);
+        ImageView detailsImage = convertView.findViewById(R.id.details_image);
 
-        final CardView list_item_card = customView.findViewById(R.id.list_item_card);
+        final CardView list_item_card = convertView.findViewById(R.id.list_item_card);
 
         if (listItemData != null) {
             locationTitle.setText(listItemData.getTitle());
@@ -113,7 +111,7 @@ public class LocationsAdapter extends ArrayAdapter<Location> {
             }
 
         }
-        return  customView;
+        return  convertView;
 
 
     }
